@@ -4,7 +4,7 @@ import {
   LayoutDashboard, 
   Users, 
   UserPlus, 
-  Info, 
+  FileText, 
   Building2,
   X
 } from 'lucide-react';
@@ -14,7 +14,7 @@ const Sidebar = ({ isOpen, onClose }) => {
     { name: 'Dashboard', path: '/', icon: LayoutDashboard },
     { name: 'Employees', path: '/employees', icon: Users },
     { name: 'Add Employee', path: '/employees/add', icon: UserPlus },
-    { name: 'About System', path: '/about', icon: Info },
+    { name: 'Project Documentation', path: '/about', icon: FileText },
   ];
 
   return (
@@ -151,13 +151,13 @@ const Sidebar = ({ isOpen, onClose }) => {
             fontSize: '0.9rem',
             border: '1px solid var(--border-focus)'
           }}>
-            AD
+            AR
           </div>
           <div style={{ overflow: 'hidden' }}>
             <p style={{ fontSize: '0.85rem', fontWeight: 600, color: '#f8fafc', whiteSpace: 'nowrap', textOverflow: 'ellipsis', overflow: 'hidden' }}>
-              Admin Portal
+              ARUN RAVI
             </p>
-            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>admin@company.com</p>
+            <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>arunravi1809@gmail.com</p>
           </div>
         </div>
       </aside>
