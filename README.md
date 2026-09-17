@@ -6,7 +6,8 @@ A modern, full-stack, responsive Employee Management System built with **React**
 ![Backend](https://img.shields.io/badge/Backend-Django%20REST%20Framework-092E20?logo=django)
 ![Database](https://img.shields.io/badge/Database-SQLite3-003B57?logo=sqlite)
 
----
+---live working link
+https://employee-management-system-nine-lemon.vercel.app/
 
 ## 📌 Project Overview
 
