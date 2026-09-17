@@ -151,7 +151,7 @@ python manage.py seed_employees
 # Start Django development server
 python manage.py runserver
 ```
-Backend will start on `http://127.0.0.1:8000`.
+
 
 ---
 
@@ -169,7 +169,7 @@ npm install
 # Start Vite development server
 npm run dev
 ```
-Frontend application will be accessible at `http://localhost:5173`.
+
 
 ---
 
